@@ -129,6 +129,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-# REST_FRAMEWORK = {
-#     'COERCE_DECIMAL_TO_STRING': False
-# }
+REST_FRAMEWORK = {
+    'COERCE_DECIMAL_TO_STRING': False
+}
